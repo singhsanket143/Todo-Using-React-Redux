@@ -8,7 +8,7 @@ function TodoList() {
             Todo List : <br />
             {todos.map(todoItem => {
                 return (
-                    <TodoItem key={todoItem.id} text={todoItem.text} isCompleted={todoItem.completed}  />
+                    <TodoItem key={todoItem.id} id={todoItem.id} text={todoItem.text} isCompleted={todoItem.completed}  />
                 )
             })}
         </div>
